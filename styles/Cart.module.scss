@@ -1,0 +1,22 @@
+.empty_cart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:25px;
+    button{
+        padding: 10px 15px;
+        background-color: #202022;
+        border: none;
+        &:hover{
+            box-shadow: 0px 1px 5px 1px gray;
+            cursor: pointer;
+        }
+        a{
+            color: #f5f5f5;
+            &:hover{
+                text-decoration: none;
+
+            }
+        }
+    }
+}
